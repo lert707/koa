@@ -1,14 +1,18 @@
 # koa
 
-个人学习 koa 的小demo
+个人学习 koa 的小demo, 数据库为mysql
+
+koa
+koa-router
+
 
 ---
 
 ## 启动项目
 
-    npm install
+ 首先   npm install
 
-    node app.js
+ 然后   node app.js
 
 ---
 
