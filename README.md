@@ -1,20 +1,17 @@
 # koa
 
-个人学习 koa 的小demo, 数据库为mysql, 前端使用vue
-
-koa
-koa-router
+    koa + vue
 
 ---
 
 ## 环境搭建
 
  server 服务端
-    npm i
+    npm i  
     node app.js
 
- www    客户端
-    npm i
+ www     客户端
+    npm i  
     npm run dev
 
 ---

@@ -25,6 +25,14 @@ export default {
         // console.log(res.data)
         this.result = res.data
       })
+      // 同步
+      // this.$store.commit('sync')
+      // 异步
+      this.$store.dispatch('async')
+      setTimeout(() => {
+        const totalData = this.$store.getters.getData
+        console.log(totalData, 1111)
+      }, 200)
     },
   },
   mounted() {
