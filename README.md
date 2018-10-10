@@ -5,19 +5,23 @@
 koa
 koa-router
 
-
 ---
 
-## 启动项目
+## 环境搭建
 
- 首先   npm install
+ server 服务端
+    npm i
+    node app.js
 
- 然后   node app.js
+ www    前端
+    npm i
+    npm run dev
 
 ---
 
 ## 目录结构
 
+    服务端
     └── src
         ├── controllers # 操作层 执行服务端模板渲染，json 接口返回数据，页面跳转
         │   ├── admin.js
