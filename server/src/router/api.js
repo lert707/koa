@@ -13,7 +13,7 @@ router
         ctx.body = "hello index"
     })
     .get('/getAll', async (ctx) => {
-        const result = await dbtools('SELECT * from userinfo');
+        const result = await dbtools('SELECT * from userinfo order by id');
         ctx.body = result
     })
     .post('/queryUser', async (ctx) => {

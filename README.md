@@ -1,6 +1,6 @@
 # koa
 
-个人学习 koa 的小demo, 数据库为mysql
+个人学习 koa 的小demo, 数据库为mysql, 前端使用vue
 
 koa
 koa-router
@@ -13,7 +13,7 @@ koa-router
     npm i
     node app.js
 
- www    前端
+ www    客户端
     npm i
     npm run dev
 
