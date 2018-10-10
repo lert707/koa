@@ -21,7 +21,7 @@ export default {
   },
   methods: {
     getData() {
-      this.$axios.get('/getAll').then(res => {
+      this.$axios.get('/api/getAll').then(res => {
         // console.log(res.data)
         this.result = res.data
       })
