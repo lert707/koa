@@ -8,5 +8,15 @@
   <body>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <script>
+      (function() {
+        let newRem = function () {
+          let html = document.documentElement;
+          html.getBoundingClientRect().width > 768 ? html.style.fontSize = '76.8px' : html.style.fontSize = html.getBoundingClientRect().width / 10 + 'px';
+        }
+        window.addEventListener('resize', newRem, false);
+        newRem();
+      })();
+    </script>
   </body>
 </html>
